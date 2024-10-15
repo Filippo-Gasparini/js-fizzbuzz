@@ -10,5 +10,14 @@ console.log('FizzBuzz')
 
 // stampo i numeri da 1 a 100
 
-for (let i = 0; i < 100; i++)
+for (let i = 0; i < 100; i++){      
     console.log(i)
+
+// stampo la variabile per i multipli di 3 con nome "Fizz" al posto del numero
+
+
+ if (i % 3 ==0) {
+    console.log ('Fizz')
+}
+
+  }
