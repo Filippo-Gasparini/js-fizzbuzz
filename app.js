@@ -16,14 +16,23 @@ for (let i = 0; i < 100; i++){
 // stampo la variabile per i multipli di 3 con nome "Fizz" al posto del numero
 
 
- if (i % 3 ==0) {
-    console.log ('Fizz')
+ if (i % 3 == 0) {
+    console.log ("Fizz")
 }
 
 // stampo la variabile per i multipli di 5 con nome "Buzz" al posto del numero
 
-else if (i % 5) {
-    console.log('Buzz')
+ if (i % 5 ==0) {
+    console.log("Buzz")
 } 
 
+ 
+
+// per i numeri multipli di 3 e 5 "Fizzbuzz"
+
+else if (i % 3 && i % 5) {
+    console.log ("Fizzbuzz")
   }
+
+
+}
