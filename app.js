@@ -20,4 +20,10 @@ for (let i = 0; i < 100; i++){
     console.log ('Fizz')
 }
 
+// stampo la variabile per i multipli di 5 con nome "Buzz" al posto del numero
+
+else if (i % 50) {
+    console.log('Buzz')
+} 
+
   }
